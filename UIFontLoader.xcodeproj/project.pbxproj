@@ -74,6 +74,15 @@
 		DB0DC9025AEAB3F8C5D602AB /* Pods-UIFontLoader-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIFontLoader-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIFontLoader-iOS/Pods-UIFontLoader-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E4AF814721BECA4F002D6E86 /* FontLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontLoader.swift; sourceTree = "<group>"; };
 		E4AF814821BECA4F002D6E86 /* BundleUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleUtils.swift; sourceTree = "<group>"; };
+		E4AF814B21BECFFB002D6E86 /* UIFontLoader.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = UIFontLoader.podspec; sourceTree = "<group>"; };
+		E4AF814C21BECFFB002D6E86 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		E4AF814D21BECFFB002D6E86 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E4AF814E21BECFFB002D6E86 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		E4AF814F21BECFFB002D6E86 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		E4AF815021BECFFB002D6E86 /* circle.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = circle.yml; sourceTree = "<group>"; };
+		E4AF815121BECFFB002D6E86 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		E4AF815221BECFFB002D6E86 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E4AF815321BECFFB002D6E86 /* Podfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +226,15 @@
 		D5B2E8951C3A780C00C0327D = {
 			isa = PBXGroup;
 			children = (
+				E4AF814F21BECFFB002D6E86 /* Cartfile */,
+				E4AF815021BECFFB002D6E86 /* circle.yml */,
+				E4AF814C21BECFFB002D6E86 /* CONTRIBUTING.md */,
+				E4AF815121BECFFB002D6E86 /* LICENSE.md */,
+				E4AF814E21BECFFB002D6E86 /* Package.swift */,
+				E4AF814D21BECFFB002D6E86 /* Podfile */,
+				E4AF815321BECFFB002D6E86 /* Podfile.lock */,
+				E4AF815221BECFFB002D6E86 /* README.md */,
+				E4AF814B21BECFFB002D6E86 /* UIFontLoader.podspec */,
 				D500FD111C3AABED00782D78 /* Playground-iOS.playground */,
 				D500FD121C3AAC8E00782D78 /* Playground-macOS.playground */,
 				D284B13F1F79081F00D94AF3 /* Info */,
