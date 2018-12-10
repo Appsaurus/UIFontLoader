@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		734E5E7ECA37D20A16500BD2 /* Pods_UIFontLoaderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4F45AE5BBD61BF8074EA4F /* Pods_UIFontLoaderDemo.framework */; };
 		D5C7F74E1C3BC9CE008CDDBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C7F74C1C3BC9CE008CDDBA /* LaunchScreen.storyboard */; };
 		D5C7F75B1C3BCA1E008CDDBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C7F7571C3BCA1E008CDDBA /* Assets.xcassets */; };
 		D5C7F75C1C3BCA1E008CDDBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C7F7591C3BCA1E008CDDBA /* AppDelegate.swift */; };
@@ -14,6 +15,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D4F45AE5BBD61BF8074EA4F /* Pods_UIFontLoaderDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIFontLoaderDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		323ED11AE3F0A92D925DFE2D /* Pods-UIFontLoaderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIFontLoaderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIFontLoaderDemo/Pods-UIFontLoaderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		47F60DE4633F8C03438ACC57 /* Pods-UIFontLoaderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIFontLoaderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIFontLoaderDemo/Pods-UIFontLoaderDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D5C7F7401C3BC9CE008CDDBA /* UIFontLoaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIFontLoaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C7F74D1C3BC9CE008CDDBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5C7F74F1C3BC9CE008CDDBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,17 +31,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734E5E7ECA37D20A16500BD2 /* Pods_UIFontLoaderDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047FF164C3FF5C7905A08AB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				323ED11AE3F0A92D925DFE2D /* Pods-UIFontLoaderDemo.debug.xcconfig */,
+				47F60DE4633F8C03438ACC57 /* Pods-UIFontLoaderDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D5C7F7371C3BC9CE008CDDBA = {
 			isa = PBXGroup;
 			children = (
 				D5C7F7421C3BC9CE008CDDBA /* UIFontLoaderDemo */,
 				D5C7F7411C3BC9CE008CDDBA /* Products */,
+				047FF164C3FF5C7905A08AB9 /* Pods */,
+				DBC278463511D39B2F2CFAAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +101,14 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		DBC278463511D39B2F2CFAAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D4F45AE5BBD61BF8074EA4F /* Pods_UIFontLoaderDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -92,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5C7F7521C3BC9CE008CDDBA /* Build configuration list for PBXNativeTarget "UIFontLoaderDemo" */;
 			buildPhases = (
+				32F5161938E4A98C7EC01A18 /* [CP] Check Pods Manifest.lock */,
 				D5C7F73C1C3BC9CE008CDDBA /* Sources */,
 				D5C7F73D1C3BC9CE008CDDBA /* Frameworks */,
 				D5C7F73E1C3BC9CE008CDDBA /* Resources */,
+				C8287998C14CB63FE2A24E14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,10 +139,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "Hyper Interaktiv AS";
+				ORGANIZATIONNAME = Appsaurus;
 				TargetAttributes = {
 					D5C7F73F1C3BC9CE008CDDBA = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4B7GH74X7C;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -150,6 +177,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32F5161938E4A98C7EC01A18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIFontLoaderDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8287998C14CB63FE2A24E14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UIFontLoaderDemo/Pods-UIFontLoaderDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/UIFontLoader/UIFontLoader.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIFontLoader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIFontLoaderDemo/Pods-UIFontLoaderDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D5C7F73C1C3BC9CE008CDDBA /* Sources */ = {
@@ -277,8 +351,10 @@
 		};
 		D5C7F7531C3BC9CE008CDDBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323ED11AE3F0A92D925DFE2D /* Pods-UIFontLoaderDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4B7GH74X7C;
 				INFOPLIST_FILE = UIFontLoaderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.appsaurus.UIFontLoader.demo.UIFontLoaderDemo;
@@ -288,8 +364,10 @@
 		};
 		D5C7F7541C3BC9CE008CDDBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F60DE4633F8C03438ACC57 /* Pods-UIFontLoaderDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4B7GH74X7C;
 				INFOPLIST_FILE = UIFontLoaderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.appsaurus.UIFontLoader.demo.UIFontLoaderDemo;

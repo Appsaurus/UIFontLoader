@@ -1,0 +1,16 @@
+PODS:
+  - UIFontLoader (0.0.1)
+
+DEPENDENCIES:
+  - UIFontLoader (from `../../`)
+
+EXTERNAL SOURCES:
+  UIFontLoader:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  UIFontLoader: 7c75a631551066884852ce0f04fac024c9d06a16
+
+PODFILE CHECKSUM: 619347f623f3a890fc22cbb26ea1d55205cce727
+
+COCOAPODS: 1.5.3

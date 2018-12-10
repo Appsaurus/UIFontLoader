@@ -9,22 +9,21 @@ Pod::Spec.new do |s|
     :git => "https://github.com/appsaurus/UIFontLoader.git",
     :tag => s.version.to_s
   }
-  s.social_media_url = 'https://twitter.com/Strobocop'
 
   s.swift_version = '4.2'
   s.requires_arc = true
 
   s.ios.deployment_target = '9.0'
-  s.osx.deployment_target = '10.9'
-  s.tvos.deployment_target = '9.2'
-  s.watchos.deployment_target = "3.0"
+#  s.osx.deployment_target = '10.9'
+#  s.tvos.deployment_target = '9.2'
+#  s.watchos.deployment_target = "3.0"
 
   s.ios.source_files = 'Sources/{iOS,Shared}/**/*'
-  s.tvos.source_files = 'Sources/{iOS,tvOS,Shared}/**/*'
-  s.osx.source_files = 'Sources/{macOS,Shared}/**/*'
-  s.watchos.source_files = 'Sources/{watchOS,Shared}/**/*'
+#  s.tvos.source_files = 'Sources/{iOS,tvOS,Shared}/**/*'
+#  s.osx.source_files = 'Sources/{macOS,Shared}/**/*'
+#  s.watchos.source_files = 'Sources/{watchOS,Shared}/**/*'
 
-  # s.ios.frameworks = 'UIKit', 'Foundation'
+  s.ios.frameworks = 'UIKit', 'Foundation'
   # s.osx.frameworks = 'Cocoa', 'Foundation'
 
 end
