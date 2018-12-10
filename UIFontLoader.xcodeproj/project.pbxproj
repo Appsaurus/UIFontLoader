@@ -687,7 +687,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.UIFontLoader-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.appsaurus.UIFontLoader-tvOS";
 				PRODUCT_NAME = UIFontLoader;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -718,7 +718,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.UIFontLoader-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.appsaurus.UIFontLoader-tvOS";
 				PRODUCT_NAME = UIFontLoader;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -794,7 +794,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.UIFontLoader-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.appsaurus.UIFontLoader-watchOS";
 				PRODUCT_NAME = UIFontLoader;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -826,7 +826,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.UIFontLoader-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.appsaurus.UIFontLoader-watchOS";
 				PRODUCT_NAME = UIFontLoader;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
