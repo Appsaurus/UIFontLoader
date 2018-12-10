@@ -1,0 +1,8 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'UIFontLoaderDemo' do
+ pod 'UIFontLoader', path: '../../'
+end
+
