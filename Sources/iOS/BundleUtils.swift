@@ -9,18 +9,16 @@ import UIKit
 
 public final class BundleUtils{
 
-	public static func cocoapodBundles() -> [Bundle]{
-		//Check pod resource bundles.
-		let cocoapodsBundleIdPrefix = "org.cocoapods."
-		let podBundles = Bundle.allFrameworks.filter({$0.bundleIdentifier?.containsString(cocoapodsBundleIdPrefix, compareOptions: .caseInsensitive) == true})
-		let podResourceBundles = podBundles.map { (bundle) -> Bundle? in
-			guard let podName = bundle.bundleIdentifier?.stringAfterRemoving(substrings: cocoapodsBundleIdPrefix),
-				let path = bundle.path(forResource: podName, ofType: "bundle"),
-				let podResourceBundle = Bundle(path: path)else { return nil }
-			return podResourceBundle
-			}.removeNils()
-		return podResourceBundles
-	}
+    public static func cocoapodBundles() -> [Bundle]{
+        //Check pod resource bundles.
+        let cocoapodsBundleIdPrefix = "org.cocoapods."
+        let podBundles = Bundle.allFrameworks.filter({$0.bundleIdentifier?.containsString(cocoapodsBundleIdPrefix, compareOptions: .caseInsensitive) == true})
+        let podResourceBundles = podBundles.map { (bundle) -> [Bundle] in
+            let paths = bundle.paths(forResourcesOfType: "bundle", inDirectory: nil)
+            return paths.map(Bundle.init).removeNils()
+            }.flatMap({$0})
+        return podResourceBundles
+    }
 
 }
 
