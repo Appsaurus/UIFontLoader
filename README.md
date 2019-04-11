@@ -13,9 +13,7 @@
 
 ## Usage
 
-```swift
-<API>
-```
+Comming soon.
 
 ## Installation
 
@@ -23,7 +21,7 @@
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'UIFontLoader'
+pod 'UIFontLoader', :git => 'https://github.com/Appsaurus/UIFontLoader'
 ```
 
 **UIFontLoader** is also available through [Carthage](https://github.com/Carthage/Carthage).
