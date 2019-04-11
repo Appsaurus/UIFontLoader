@@ -23,15 +23,15 @@ public final class BundleUtils{
 }
 
 fileprivate extension String{
-    fileprivate func containsString(_ string: String, compareOptions: NSString.CompareOptions) -> Bool {
+    func containsString(_ string: String, compareOptions: NSString.CompareOptions) -> Bool {
         return self.range(of: string, options: compareOptions) != nil
     }
     
-    fileprivate func stringAfterRemoving(substrings: String...) -> String{
+    func stringAfterRemoving(substrings: String...) -> String{
         return stringAfterReplacing(substrings: substrings, with: "")
     }
     
-    fileprivate func stringAfterReplacing(substrings: [String], with replacement: String) -> String{
+    func stringAfterReplacing(substrings: [String], with replacement: String) -> String{
         var copy = self
         for string in substrings{
             if let range = copy.range(of: string) {
@@ -50,7 +50,7 @@ fileprivate protocol OptionalType {
 extension Optional: OptionalType {}
 
 fileprivate extension Sequence where Iterator.Element: OptionalType {
-    fileprivate func removeNils() -> [Iterator.Element.Wrapped] {
+    func removeNils() -> [Iterator.Element.Wrapped] {
         var result: [Iterator.Element.Wrapped] = []
         for element in self {
             if let element = element.map({ $0 }) {
