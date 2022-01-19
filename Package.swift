@@ -29,9 +29,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "UIFontLoader",
-            dependencies: [
-            ],
-            path: "Sources/UIFontLoader/",
             resources: [
                 .process("Resources"),
             ]
