@@ -109,25 +109,6 @@ Then simply `import UIFontLoader` wherever you’d like to use it.
 @_exported import UIFontLoader
 ``` -->
 
-
-## Usage
-
-
-
-## 🗺 Roadmap
-
-- World Domination
-
-
-
-## Contributing
-
-Contributions to `UIFontLoader` are most welcome. Check out some of the [issue templates](./.github/ISSUE_TEMPLATE/) for more info.
-
-
-
-## 💻 Developing
-
 ### Requirements
 
 - Xcode 13.0+
@@ -136,9 +117,6 @@ Contributions to `UIFontLoader` are most welcome. Check out some of the [issue t
 ### 📜 Creating & Building Documentation
 
 Documentation is built with [Xcode's DocC](https://developer.apple.com/documentation/docc). See [Apple's guidance on how to build, run, and create DocC content](https://developer.apple.com/documentation/docc/api-reference-syntax).
-
-For now, the best way to view the docs is to open the project in Xcode and run the `Build Documentation` command. At some point in the future, I'm hoping to leverage the tooling the develops for generating/hosting DocC documentation. (Please feel free to let me know if you have any ideas or tooling recommendations around this 🙂).
-
 
 ## 🏷 License
 
